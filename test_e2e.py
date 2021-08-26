@@ -13,7 +13,7 @@ from utilities.BaseClass import BaseClass
 
 class TestGoogle(BaseClass):
     def test_e2e(self):
-        #checking123456
+        #ritu jagln
         homepage = HomePage(self.driver)
         checkout_page = homepage.shop_items()
         checkout_page.add_to_cart().click()
